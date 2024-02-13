@@ -2501,6 +2501,15 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-cintillo-primario {
+  color: #fff;
+  background-color: #f23030;
+  border-color: #f23030;
+  font-style: italic;
+  width: 60%;
+  padding: 10px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -6085,7 +6094,6 @@ button.close {
 
 /* Formato para fijar el contenido de la página */
 #main-content {
-  padding: 20px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -6099,6 +6107,12 @@ button.close {
   bottom: 0;
   margin-bottom: 0;
   width: 100%;
+}
+
+/* Formato de estilo nuevo de color de encabezados principal */
+.text-primer-color {
+  color: #f23030 !important;
+  font-style: italic;
 }
 
 .bg-primary {
