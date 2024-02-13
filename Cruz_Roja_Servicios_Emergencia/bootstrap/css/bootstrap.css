@@ -2501,13 +2501,21 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+/* Desarrollo de un nuevo estilo de botón para acomodar de acuerdo a los elementos de cintillos en imagenes */
 .btn-cintillo-primario {
   color: #fff;
-  background-color: #f23030;
-  border-color: #f23030;
+  background-color: #1a4173;
+  border-color: #1a4173;
   font-style: italic;
   width: 60%;
   padding: 10px;
+}
+
+/* Desarrollo de nuevo estilo de un botón para acomodar los botones dentro de cada uno de los tipos de artículos en front end */
+.btn-primario {
+  color: #fff;
+  background-color: #f23847;
+  border-color: #f23847;
 }
 
 .btn-primary {
@@ -4434,6 +4442,7 @@ tbody.collapse.show {
   color: #fff;
 }
 
+/* modificación al estilo existente para generar separaciones */
 .card {
   position: relative;
   display: -webkit-box;
@@ -4449,6 +4458,7 @@ tbody.collapse.show {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-bottom: 10px;
 }
 
 .card > hr {
@@ -6090,6 +6100,7 @@ button.close {
   width: 100%;
   top: 0;
   position: fixed;
+  z-index: 99;
 }
 
 /* Formato para fijar el contenido de la página */
@@ -6357,7 +6368,8 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
-@media (min-width: 576px) {
+/* Modifación que permita visualización correcta del elemento de texto cuando las dimensiones del dispositivo no son demasiado pequeñas */
+@media (min-width: 629px) {
   .d-sm-none {
     display: none !important;
   }
